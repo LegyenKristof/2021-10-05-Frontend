@@ -14,3 +14,7 @@ table td, th{
 .row{
     margin-bottom: 10px;
 }
+
+table th:hover{
+    cursor: pointer;
+}
