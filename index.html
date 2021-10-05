@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
     Név: <input type="text" id="nevInput"><br>
     Rendező: <input type="text" id="rendezoInput"><br>
-    Kiadási év: <input type="text" id="kiadasiEvInput"><br>
-    <button id="hozzaAdButton">Hozzáad</button>    
+    Kiadási év: <input type="number" id="kiadasiEvInput"><br>
+    <button id="hozzaAdButton">Hozzáad</button>
+    <button id="listazasButton">Listázás</button> 
+    
+    <table id="table">
+        <tr>
+            <th>Név</th>
+            <th>Rendező</th>
+            <th>Kiadási év</th>
+        </tr>
+    </table>
 </body>
 <script src="main.js"></script>
 </html>
